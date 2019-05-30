@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "relate-mobile": "/components/mobile-relate/mobile-relate"
+  }
+}

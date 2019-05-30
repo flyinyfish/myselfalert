@@ -1,0 +1,79 @@
+/**index.wxss**/
+.padding-bottom15 {
+  padding-bottom: 15rpx;
+  box-sizing: border-box;
+}
+.job {
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.job-list {
+  padding: 30rpx 0;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #e4e4e4;
+}
+/* 职位和状态 */
+.job-list-row {
+  display: flex;
+  align-items: center;
+}
+.job-title-name {
+  max-width: 84%;
+  font-size: 36rpx;
+  color: #4A4A4A;
+  font-weight: 600;
+}
+.job-title-ji {
+  width: 38rpx;
+  height: 38rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 10rpx;
+}
+.job-title-fire {
+  width: 38rpx;
+  height: 38rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* 薪资和佣金 */
+.job-money {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+.job-money-num {
+  color: #FA9B40;
+}
+.job-money-award {
+  color: #FF3533;
+}
+.job-money-award text:first-child {
+  border: 1rpx solid #FF3533;
+  border-radius: 50%;
+  padding: 4rpx 8rpx;
+  box-sizing: border-box;
+}
+/* 地址和时间 */
+.job-position {
+  display: flex;
+  justify-content: space-between;
+  font-size: 27rpx;
+  color: #909090;
+}
+/* 福利 */
+.job-welfare text {
+  border: 1rpx solid #40a7ff;
+  color: #40a7ff;
+  font-size: 24rpx;
+}
+/* 公司和招聘人数 */
+.job-company {
+  display: flex;
+  justify-content: space-between;
+  color: #4A4A4A;
+  font-size: 30rpx;
+}
+.job-company-peoples {
+  color: #909090;
+}

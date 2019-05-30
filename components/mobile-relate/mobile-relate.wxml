@@ -1,0 +1,14 @@
+<!--components/mobile-relate/mobile-relate.wxml-->
+<view class='mask' wx:if='{{show}}' bindtap='clickMask'>
+  <view class='page-content' style='height:{{height}}'>
+    <view class="main-content">
+      <input class="content-num" disabled maxlength="11" type="number" placeholder="请获取手机号码" />
+      <button class="content-btn" open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">获取手机号</button>
+    </view>
+    <view class='btn-wrapper'>
+      <view class='cancel-btn' style='color:rgba(7,17,27,0.6)' bindtap='cancel'>取消</view>
+      <view class='confirm-btn' style='color:#13b5f5' bindtap='confirm'>确定</view>
+    </view>
+  </view>
+</view>
+
